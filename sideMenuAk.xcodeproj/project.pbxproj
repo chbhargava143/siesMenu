@@ -13,6 +13,12 @@
 		0CC941A12446BE62007FA98E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9419F2446BE62007FA98E /* Main.storyboard */; };
 		0CC941A32446BE66007FA98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC941A22446BE66007FA98E /* Assets.xcassets */; };
 		0CC941A62446BE66007FA98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC941A42446BE66007FA98E /* LaunchScreen.storyboard */; };
+		0CC941AE2446BE80007FA98E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941AD2446BE80007FA98E /* BaseViewController.swift */; };
+		0CC941B02446BEB2007FA98E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941AF2446BEB2007FA98E /* MenuViewController.swift */; };
+		0CC941B22446C3A7007FA98E /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941B12446C3A7007FA98E /* profileViewController.swift */; };
+		0CC941B42446C3BF007FA98E /* ridesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941B32446C3BF007FA98E /* ridesViewController.swift */; };
+		0CC941B62446C3CC007FA98E /* communityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941B52446C3CC007FA98E /* communityViewController.swift */; };
+		0CC941B82446C4BB007FA98E /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC941B72446C4BB007FA98E /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		0CC941A22446BE66007FA98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC941A52446BE66007FA98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC941A72446BE66007FA98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC941AD2446BE80007FA98E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0CC941AF2446BEB2007FA98E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0CC941B12446C3A7007FA98E /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		0CC941B32446C3BF007FA98E /* ridesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ridesViewController.swift; sourceTree = "<group>"; };
+		0CC941B52446C3CC007FA98E /* communityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communityViewController.swift; sourceTree = "<group>"; };
+		0CC941B72446C4BB007FA98E /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				0CC941992446BE62007FA98E /* AppDelegate.swift */,
 				0CC9419B2446BE62007FA98E /* SceneDelegate.swift */,
+				0CC941AD2446BE80007FA98E /* BaseViewController.swift */,
 				0CC9419D2446BE62007FA98E /* ViewController.swift */,
+				0CC941AF2446BEB2007FA98E /* MenuViewController.swift */,
+				0CC941B72446C4BB007FA98E /* MenuCell.swift */,
+				0CC941B12446C3A7007FA98E /* profileViewController.swift */,
+				0CC941B32446C3BF007FA98E /* ridesViewController.swift */,
+				0CC941B52446C3CC007FA98E /* communityViewController.swift */,
 				0CC9419F2446BE62007FA98E /* Main.storyboard */,
 				0CC941A22446BE66007FA98E /* Assets.xcassets */,
 				0CC941A42446BE66007FA98E /* LaunchScreen.storyboard */,
@@ -139,6 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CC9419E2446BE62007FA98E /* ViewController.swift in Sources */,
+				0CC941B02446BEB2007FA98E /* MenuViewController.swift in Sources */,
+				0CC941B82446C4BB007FA98E /* MenuCell.swift in Sources */,
+				0CC941B22446C3A7007FA98E /* profileViewController.swift in Sources */,
+				0CC941B42446C3BF007FA98E /* ridesViewController.swift in Sources */,
+				0CC941B62446C3CC007FA98E /* communityViewController.swift in Sources */,
+				0CC941AE2446BE80007FA98E /* BaseViewController.swift in Sources */,
 				0CC9419A2446BE62007FA98E /* AppDelegate.swift in Sources */,
 				0CC9419C2446BE62007FA98E /* SceneDelegate.swift in Sources */,
 			);
